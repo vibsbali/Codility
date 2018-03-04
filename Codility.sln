@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codility.ChapterOne", "Codility.ChapterOne\Codility.ChapterOne.csproj", "{649ADB30-16FA-4AC5-930A-5C2ED95AE906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codility.ConsoleRunner", "Codility.ConsoleRunner\Codility.ConsoleRunner.csproj", "{D25A71A2-159E-4D82-86C4-BE1BBE0F19DF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{649ADB30-16FA-4AC5-930A-5C2ED95AE906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649ADB30-16FA-4AC5-930A-5C2ED95AE906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649ADB30-16FA-4AC5-930A-5C2ED95AE906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649ADB30-16FA-4AC5-930A-5C2ED95AE906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25A71A2-159E-4D82-86C4-BE1BBE0F19DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25A71A2-159E-4D82-86C4-BE1BBE0F19DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25A71A2-159E-4D82-86C4-BE1BBE0F19DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25A71A2-159E-4D82-86C4-BE1BBE0F19DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
