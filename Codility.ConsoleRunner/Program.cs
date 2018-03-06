@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
-using Codility.ChapterOne;
+using Codility.StringToNumber;
 
 namespace Codility.ConsoleRunner
 {
@@ -12,8 +7,8 @@ namespace Codility.ConsoleRunner
     {
         static void Main()
         {
-            var binaryGap = new BinaryGap();
-            Console.WriteLine(binaryGap.Solution(5));
+            var converter = new ConvertStringToNumber();
+            Console.WriteLine(converter.StringToNumber("91234"));
         }
     }
 }
